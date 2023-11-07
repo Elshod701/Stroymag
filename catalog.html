@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Catalog</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__container container">
+        <div class="header__top__contact">
+          <a href="#" class="header__top__contact__link">
+            Доставка и оплата
+          </a>
+          <a href="#" class="header__top__contact__link">Контакты</a>
+        </div>
+        <div class="header__top__random">
+          <span class="header__top__random__span">Построй и обустрой</span>
+          <p class="header__top__random__text">
+            Всё для дома, дачи и стройки!
+          </p>
+        </div>
+        <div class="header__top__icons">
+          <a href="#" class="header__top__icon"> </a>
+          <a href="#" class="header__top__icon"> </a>
+          <a href="#" class="header__top__icon"> </a>
+        </div>
+      </div>
+    </div>
+    <div class="header__main">
+      <div class="header__container container">
+        <div class="header__logo">
+          <img src="/img/logo.svg" alt="Logo" class="header__logo__image" />
+        </div>
+        <div class="header__number">
+          <a href="tel:" class="header__number__link">+7 (499) 719-99-94</a>
+        </div>
+        <div class="header__form">
+          <input
+            type="text"
+            class="header__input"
+            placeholder="Что ищем?.."
+          />
+          <button class="header__button">Поиск</button>
+        </div>
+        <div class="header__socials">
+          <a href="#" class="header__social__link"></a>
+          <a href="#" class="header__social__link"></a>
+          <a href="#" class="header__social__link"></a>
+          <a href="#" class="header__social__link"></a>
+        </div>
+        <div class="header__sign">
+          <a href="#" class="header__addres_button">Адреса магазинов</a>
+          <a href="#" class="header__sign_button"></a>
+        </div>
+
+        <!-- ! MOBILE VISIBLE SECTION -->
+        <div class="header__mobile_socials">
+          <a href="#" class="header__mobile_socials__link"></a>
+          <a href="#" class="header__mobile_socials__link"></a>
+          <a href="#" class="header__mobile_socials__link"></a>
+          <a href="#" class="header__mobile_socials__link"></a>
+          <a href="#" class="header__mobile_socials__link"></a>
+        </div>
+      </div>
+    </div>
+    <div class="header__nav">
+      <div class="header__container container">
+        <ul class="header__nav_list">
+          <li class="header__nav_item">
+            <a
+              href="/catalog.html"
+              class="header__nav_link header__nav_link--active"
+            >
+              Каталог
+            </a>
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link"
+              >Аккумуляторы</a
+            >
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link">
+              Блоки контроля
+            </a>
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link">Генераторы</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link">
+              Климатическая техника
+            </a>
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link">Отопление</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link">Перфораторы</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link">Провода</a>
+          </li>
+          <li class="header__nav_item">
+            <a href="/product.html" class="header__nav_link">Люстры</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ! MOBILE VISIBLE SECTION -->
+    <div class="header__mobile_contact">
+      <div class="header__container container">
+        <a href="#" class="header__mobile_phone">8-(495)-005-52-15</a>
+        <a href="#" class="header__mobile_mail">info@5kvt.ru</a>
+      </div>
+    </div>
+    <div class="header__mobile_input">
+      <div class="header__container container">
+        <input type="text" placeholder="Поиск" />
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="catalog_header">
+      <div class="container">
+        <div class="catalog_header_main_block">
+          <div class="catalog_header_text_block">
+            <h2 class="catalog_header_title">
+              Каталог товаров
+            </h2>
+          </div>
+          <div class="catalog_header_block">
+            <div class="catalog_header_list">
+              <p class="catalog_header_text">Сортировать:</p>
+              <span class="catalog_header_span">по актуальности</span>
+            </div>
+            <div class="catalog_header_list_2">
+              <p class="catalog_header_text">Показывать:</p>
+              <span class="catalog_header_span">по 9</span>
+            </div>
+            <img class="catalog_header_list_2_img" src="./img/about_header_img.png" alt="">
+          </div>
+        </div>
+    </section>
+
+    <div class="wraper">
+        <section class="catalog_nav">
+          <div class="container">
+            <div class="catalog_nav_main_block">
+              <div class="catalog_nav_block_1">
+                <h2 class="catalog_nav_title">Категория</h2>
+                <input placeholder="Отопление" class="catalog_nav_selector" type="text">
+              </div>
+              <div class="catalog_nav_block_1">
+                <h2 class="catalog_nav_title">Подкатегория</h2>
+                <input placeholder="Радиаторы" class="catalog_nav_selector" type="text">
+              </div>
+              <hr class="catalog_nav_hr">
+    
+              <div class="catalog_nav_block_2">
+                <h2 class="catalog_nav_title">Цена</h2>
+                <div class="catalog_nav_block_2_block">
+                  <input class="catalog_nav_block_2_put" placeholder="от" type="text">
+    
+                  <input class="catalog_nav_block_2_put" placeholder="от" type="text">
+                </div>
+              </div>
+    
+              <hr class="catalog_nav_hr">
+    
+              <div class="catalog_nav_block_3">
+                <h2 class="catalog_nav_title">Бренд</h2>
+                <div class="catalog_nav_block_3_block">
+                  <div>
+                    <input checked type="checkbox">
+                    <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                  </div>
+                  <div>
+                    <input type="checkbox">
+                    <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                  </div>
+                  <div>
+                    <input checked type="checkbox">
+                    <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                  </div>
+                  <div>
+                    <input type="checkbox">
+                    <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                  </div>
+                  <div>
+                    <input checked type="checkbox">
+                    <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                  </div>
+                </div>
+              </div>
+    
+              <hr class="catalog_nav_hr">
+    
+              <div class="catalog_nav_block_4">
+                <h2 class="catalog_nav_title">Рейтинг</h2>
+                <img src="./img/about_nav_stars.svg" alt="">
+              </div>
+    
+    
+              <hr class="catalog_nav_hr">
+    
+              <div class="catalog_nav_block_4">
+                <h2 class="catalog_nav_title">Другое</h2>
+                <div>
+                  <input checked type="checkbox">
+                  <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                </div>
+                <div class=" check">
+                  <input type="checkbox">
+                  <label class="catalog_nav_block_3_lab " for="">Bosh</label>
+                </div>
+              </div>
+    
+              <hr class="catalog_nav_hr">
+    
+              <div class="catalog_nav_block_5">
+                <h2 class="catalog_nav_title">Доставка и наличие</h2>
+                <div>
+                  <input type="checkbox">
+                  <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                </div>
+                <div  class=" check">
+                  <input checked type="checkbox">
+                  <label class="catalog_nav_block_3_lab " for="">Bosh</label>
+                </div>
+                <div class=" check">
+                  <input type="checkbox">
+                  <label class="catalog_nav_block_3_lab" for="">Bosh</label>
+                </div>
+                <div  class=" check">
+                  <input checked type="checkbox">
+                  <label class="catalog_nav_block_3_lab " for="">Bosh</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="catalog_cards">
+          <div class="container">
+            <ul class="catalog_cards_list">
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+              <li class="catalog_cards_item">
+                <img class="catalog_cards_img" src="./img/about_cards.svg" alt="">
+                <p class="catalog_cards_span">HUTER ECS-100</p>
+                <p class="catalog_cards_text">Станок для заточки цепей</p>
+                <div class="catalog_cards_mini_block">
+                  <p class="about_cards_cash">2 441 ₽</p>
+                  <img class="about_cards_img_2" src="./img/about_cards_img_2.svg" alt="">
+                </div>
+                <button class="catalog_cards_btn">В корзину</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+        
+      </div>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__contacts">
+        <img src="/img/logo.svg " alt="Logo" class="footer__logo" />
+        <a href="#" class="footer__clink">+7 (499) 719-99-94</a>
+        <a href="#" class="footer__clink">info@5kvt.ru</a>
+        <a href="#" class="footer__link">Ежедневно 9:30 - 20:00 (МСК)</a>
+        <span class="footer__location">
+          117218, г. Москва, пр-кт Нахимовский .,дом 30/43, кв. 81
+        </span>
+      </div>
+      <div class="footer__info">
+        <span class="footer__title">Информация</span>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Доставка</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Оплата</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Производители</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Подарочные сертификаты</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Партнерская программа</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Акции</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Все товары</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__private">
+        <span class="footer__title"> Служба поддержки </span>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Возврат товара</a>
+          </li>
+        </ul>
+        <span class="footer__title"> Личный кабинет </span>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Возврат </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Личный кабинет </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">История заказов </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Избранное </a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Рассылка </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__merge">
+        <div class="footer__merge__icons">
+          <a href="#" class="footer__merge__link"></a>
+          <a href="#" class="footer__merge__link"></a>
+          <a href="#" class="footer__merge__text">Напишите нам</a>
+        </div>
+        <a href="#" class="footer__merge__button">Служба поддержки</a>
+        <span class="footer__title">Принимаем к оплате</span>
+        <ul class="footer__payment_list">
+          <li class="footer__payment_item">
+            <a href="#" class="footer__payment_link"></a>
+          </li>
+          <li class="footer__payment_item">
+            <a href="#" class="footer__payment_link"></a>
+          </li>
+          <li class="footer__payment_item">
+            <a href="#" class="footer__payment_link"></a>
+          </li>
+          <li class="footer__payment_item">
+            <a href="#" class="footer__payment_link"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__bottom container">
+      Все права защищены. Указанная стоимость товаров и условия их
+      приобретения действительны на текущую дату.
+    </p>
+  </footer>
+</body>
+
+</html>

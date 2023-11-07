@@ -1,0 +1,168 @@
+.tovars {
+  margin-top: 105px;
+}
+
+.tovars__container {
+  @include flex(column);
+  gap: 70px;
+}
+
+.tovars__header {
+  @include flex(row);
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tovars__title {
+  color: var(--Black);
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.tovars__buttons {
+  @include flex(row);
+  gap: 10px;
+}
+
+.tovars__button {
+  @include flex(row);
+  justify-content: center;
+  padding: 9px;
+  border-radius: 3px;
+  background: var(--Blue, #1074eb);
+}
+
+.tovars__list {
+  width: 100%;
+  @include flex(row);
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tovars__item {
+  width: 100%;
+  max-width: 260px;
+}
+
+.tovars__images {
+  width: 100%;
+  border-radius: 3px;
+  background: var(--Light-gray, #f7f7f7);
+}
+
+.tovars__image {
+  width: 100%;
+  height: 263px;
+  object-fit: cover;
+  background-image: url("/img/homepage/tovars_image1.png");
+  @include bg;
+  background-size: 200px;
+  padding: 15px;
+  @include flex(row);
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.tovars__subtitle {
+  color: var(--Gray-strong);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.tovars__subinfo {
+  color: var(--Black);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+.tovars__prices {
+  width: 100%;
+  margin-top: 32px;
+  @include flex(row);
+  justify-content: space-between;
+}
+
+.tovars__price {
+  color: var(--Black);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tovars__subbuttons {
+  width: 100%;
+  @include flex(row);
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.tovars__subbutton {
+  width: 100%;
+  height: 50px;
+  @include flex(row);
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+  background: var(--Blue, #1074eb);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: var(--White);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tovars__stats_button {
+  height: 50px;
+  @include flex(row);
+  justify-content: center;
+  border-radius: 3px;
+  background: var(--Blue, #1074eb);
+  padding: 14px;
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .tovars__image {
+    height: 200px;
+    background-size: 175px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .tovars__image {
+    height: 175px;
+    background-size: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tovars__list {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .tovars__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .tovars__subinfo {
+    font-size: 16px;
+  }
+
+  .tovars__prices {
+    margin-top: 10px;
+  }
+
+  .tovars__subbuttons {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .tovars__list {
+    justify-content: center;
+  }
+}

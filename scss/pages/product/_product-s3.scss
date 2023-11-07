@@ -1,0 +1,301 @@
+.product_otziv {
+  margin: 30px 0 50px 0;
+  &_cards {
+    display: flex;
+    gap: 30px;
+    &_1 {
+      width: 100%;
+      height: auto;
+      padding: 30px;
+      border-radius: 3px;
+      background: var(--Light-gray, #f7f7f7);
+      h1 {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #c9c9c9;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+      }
+      p {
+        color: var(--Gray-strong, #9c9c9c);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    &_2 {
+      width: 555px;
+      height: 328px;
+      padding: 30px;
+      border-radius: 3px;
+      background: var(--Light-gray, #f7f7f7);
+      &_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #c9c9c9;
+
+        h1 {
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+        }
+        .title-strikes {
+          display: flex;
+          gap: 10px;
+          .title_right {
+            border-radius: 3px;
+            background: var(--Blue, #1074eb);
+          }
+          .title_left {
+            border-radius: 3px;
+            background: var(--Blue, #1074eb);
+          }
+        }
+      }
+      &_admin {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        img {
+          width: 70px;
+          height: 70px;
+          flex-shrink: 0;
+          border-radius: 50%;
+        }
+        h1 {
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+          color: var(--Black, #383838);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .product_otziv_rating {
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+      &_text {
+        color: var(--Gray-strong, #9c9c9c);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+//  ///////
+
+@media screen and (max-width: 1039px) {
+  .product_otziv {
+    margin: 30px 0 50px 0;
+    &_cards {
+      display: flex;
+      gap: 30px;
+      flex-direction: column;
+      &_1 {
+        width: 100%;
+        height: 326px;
+        padding: 30px;
+        border-radius: 3px;
+        background: var(--Light-gray, #f7f7f7);
+        h1 {
+          padding-bottom: 30px;
+          border-bottom: 1px solid #c9c9c9;
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+        }
+        p {
+          color: var(--Gray-strong, #9c9c9c);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      &_2 {
+        width: 100%;
+        height: 328px;
+        padding: 30px;
+        border-radius: 3px;
+        background: var(--Light-gray, #f7f7f7);
+        &_title {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-bottom: 30px;
+          border-bottom: 1px solid #c9c9c9;
+
+          h1 {
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+          }
+          .title-strikes {
+            display: flex;
+            gap: 10px;
+            .title_right {
+              border-radius: 3px;
+              background: var(--Blue, #1074eb);
+            }
+            .title_left {
+              border-radius: 3px;
+              background: var(--Blue, #1074eb);
+            }
+          }
+        }
+        &_admin {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          justify-content: space-between;
+          img {
+            width: 70px;
+            height: 70px;
+            flex-shrink: 0;
+            border-radius: 50%;
+          }
+          h1 {
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            color: var(--Black, #383838);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+          .product_otziv_rating {
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+        &_text {
+          color: var(--Gray-strong, #9c9c9c);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .product_otziv {
+    margin: 30px 0 50px 0;
+    &_cards {
+      display: flex;
+      gap: 50px;
+      flex-direction: column;
+      &_1 {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        border-radius: 3px;
+        background: var(--Light-gray, #f7f7f7);
+        h1 {
+          padding-bottom: 30px;
+          border-bottom: 1px solid #c9c9c9;
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+        }
+        p {
+          color: var(--Gray-strong, #9c9c9c);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      &_2 {
+        width: 100%;
+        height: 328px;
+        padding: 30px;
+        border-radius: 3px;
+        background: var(--Light-gray, #f7f7f7);
+        &_title {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-bottom: 30px;
+          border-bottom: 1px solid #c9c9c9;
+
+          h1 {
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+          }
+          .title-strikes {
+            display: flex;
+            gap: 10px;
+            .title_right {
+              border-radius: 3px;
+              background: var(--Blue, #1074eb);
+            }
+            .title_left {
+              border-radius: 3px;
+              background: var(--Blue, #1074eb);
+            }
+          }
+        }
+        &_admin {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          justify-content: space-between;
+          img {
+            width: 70px;
+            height: 70px;
+            flex-shrink: 0;
+            border-radius: 50%;
+          }
+          h1 {
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            color: var(--Black, #383838);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+          .product_otziv_rating {
+            img {
+              width: 30px;
+              height: 30px;
+              &:nth-child(2) {
+                display: none;
+              }
+              &:nth-child(3) {
+                display: none;
+              }
+              &:nth-child(4) {
+                display: none;
+              }
+              &:nth-child(5) {
+                display: none;
+              }
+            }
+          }
+        }
+        &_text {
+          color: var(--Gray-strong, #9c9c9c);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

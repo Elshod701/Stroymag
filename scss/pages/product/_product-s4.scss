@@ -1,0 +1,244 @@
+.product_allCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  .product_allCards_1 {
+    width: 263px;
+    position: relative;
+    height: auto;
+    .main_huter_svg {
+      background: transparent;
+    }
+    .huter_heart {
+      position: absolute;
+      z-index: 1111;
+      top: 15px;
+      right: 15px;
+    }
+    h1 {
+      margin-block-end: 0;
+      margin-block-start: 0;
+      color: var(--Gray-strong, #9c9c9c);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 20px;
+    }
+    p {
+      margin-block-end: 0;
+      margin-block-start: 0;
+      color: var(--Black, #383838);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .product_trade_price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+      h1 {
+        margin-block-end: 0;
+        margin-block-start: 0;
+        color: var(--Black, #383838);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .product_allCards_1_btn {
+      margin-top: 30px;
+      padding: 18px 74px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      border-radius: 3px;
+      background: var(--Blue, #1074eb);
+      color: var(--White, #fff);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      border: none;
+      line-height: normal;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  .product_allCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    .product_allCards_1 {
+      width: 263px;
+      position: relative;
+      height: auto;
+      margin-top: 20px;
+      .main_huter_svg {
+        background: transparent;
+      }
+      .huter_heart {
+        position: absolute;
+        z-index: 1111;
+        top: 15px;
+        right: 15px;
+      }
+      h1 {
+        margin-block-end: 0;
+        margin-block-start: 0;
+        color: var(--Gray-strong, #9c9c9c);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 20px;
+      }
+      p {
+        margin-block-end: 0;
+        margin-block-start: 0;
+        color: var(--Black, #383838);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .product_trade_price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        h1 {
+          margin-block-end: 0;
+          margin-block-start: 0;
+          color: var(--Black, #383838);
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .product_allCards_1_btn {
+        margin-top: 30px;
+        padding: 18px 74px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        border-radius: 3px;
+        background: var(--Blue, #1074eb);
+        color: var(--White, #fff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        border: none;
+        line-height: normal;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  .product_allCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    .product_allCards_1 {
+      width: 263px;
+      position: relative;
+      height: auto;
+      margin-top: 20px;
+      .main_huter_svg {
+        background: transparent;
+      }
+      .huter_heart {
+        position: absolute;
+        z-index: 1111;
+        top: 15px;
+        right: 15px;
+      }
+      h1 {
+        margin-block-end: 0;
+        margin-block-start: 0;
+        color: var(--Gray-strong, #9c9c9c);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 20px;
+      }
+      p {
+        margin-block-end: 0;
+        margin-block-start: 0;
+        color: var(--Black, #383838);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .product_trade_price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        h1 {
+          margin-block-end: 0;
+          margin-block-start: 0;
+          color: var(--Black, #383838);
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .product_allCards_1_btn {
+        margin-top: 30px;
+        padding: 18px 74px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        border-radius: 3px;
+        background: var(--Blue, #1074eb);
+        color: var(--White, #fff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        border: none;
+        line-height: normal;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}

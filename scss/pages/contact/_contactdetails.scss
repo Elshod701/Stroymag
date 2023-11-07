@@ -1,0 +1,136 @@
+.contact_details_container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.bank_list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+
+}
+
+.bank_title {
+    padding-top: 30px;
+}
+
+.bank_account_box {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    background-color: #F7F7F7;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.phone_email {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 54px;
+}
+.contact_details_title {
+    color:  #9C9C9C;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 34px;
+}
+.bank_item {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.email_address {
+    position: relative;
+    padding-left: 50px;
+    display: flex;
+    align-items:center;
+
+
+}
+.phone_number {
+    position: relative;
+    padding-left: 50px;
+    display: flex;
+    align-items:center;
+
+}
+
+
+
+.phone_number::before {
+    position: absolute;
+    left: 0px;
+    content: '';
+    background-image: url('/img/phone.svg'); 
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius:25px;
+    background-position: center center;
+    box-shadow:(0px 8px 15px rgba(56, 56, 56, 0.20)); ;
+
+}
+
+.email_address::before {
+    position: absolute;
+    left: 0px;
+    content: '';
+    background-image: url('/img/email.svg'); 
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius:25px;
+    background-position: center center;
+    box-shadow:(0px 8px 15px rgba(56, 56, 56, 0.20)); ;
+}
+
+
+.social_links {
+    display: flex;
+    gap: 15px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .bank_list {
+        flex-direction: column;
+    }
+    .bank_item {
+        flex-direction: column;
+    }
+
+    .contact_details_container {
+        flex-direction: column;
+    }
+
+    .phone_email {
+        flex-direction: column;
+    }
+
+    .bank_item {
+        gap: 0px;
+    }
+    .contact_details_container {
+        padding-top: 0px;
+    }
+
+    .bank_account_box {
+        padding-left: 0;
+        justify-content: left;
+        background-color: #fff;
+    }
+
+}

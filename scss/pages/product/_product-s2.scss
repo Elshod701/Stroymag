@@ -1,0 +1,95 @@
+.product_info {
+  background: #00000014;
+  margin-top: 50px;
+  padding: 30px;
+  &_title {
+    color: var(--Black, #383838);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--Gray, #c9c9c9);
+    border-radius: 12px;
+  }
+  .asd {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+.product_informations_first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 524px;
+  p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 20px;
+    color: var(--Black, #383838);
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .character {
+    color: var(--Gray-strong, #9c9c9c);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+/////////////////
+///
+
+@media only screen and (max-width: 1180px) {
+  .product_info {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 3px;
+    background: var(--Light-gray, #f7f7f7);
+    &_title {
+      color: var(--Black, #383838);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--Gray, #c9c9c9);
+    }
+    .asd {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-direction: column;
+    }
+  }
+  .product_informations_first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    p {
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-bottom: 20px;
+      color: var(--Black, #383838);
+      text-align: right;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .character {
+      color: var(--Gray-strong, #9c9c9c);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

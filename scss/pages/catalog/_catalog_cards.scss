@@ -1,0 +1,133 @@
+.catalog_cards_img {
+    max-width: 263px;
+    margin-bottom: 20px;
+}
+
+.catalog_cards_span {
+    color: #9C9C9C;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.catalog_cards_item {
+    max-width: 263px;
+
+}
+
+.catalog_cards_text {
+    color: var(--Black, #383838);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.about_cards_cash {
+    color: var(--Black, #383838);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.catalog_cards_mini_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.catalog_cards{
+    padding-bottom: 50px;
+}
+
+.about_cards_img_2 {
+    max-width: 25px;
+}
+
+.catalog_cards_btn {
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    background: var(--Blue, #1074EB);
+    padding: 18px 80px;
+    border: none;
+    width: 100%;
+}
+
+.catalog_cards_btn::before {
+    content: "";
+    background-image: url(/img/about_cards_img_tele.svg);
+    width: 19px;
+    height: 19px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.catalog_cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.wraper {
+    display: flex;
+    max-width: 1190px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+@media screen and (max-width:1190px) {
+
+    .catalog_nav {
+        display: none;
+    }
+
+    .catalog_cards_item {
+        max-width: 161px;
+    }
+
+    .catalog_cards_btn::before {
+        display: none;
+    }
+
+    .catalog_cards_btn {
+        padding: 16px 19px;
+    }
+
+    .catalog_cards_list {
+        max-width: 341px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .container {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .catalog_cards_span {
+        color: #9C9C9C;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .catalog_cards_text {
+        color: #383838;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .about_cards_cash {
+        color: #383838;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+   .catalog_cards_list .catalog_cards_item:nth-child(9){
+        display: none;
+    }
+
+}

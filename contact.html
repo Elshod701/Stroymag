@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <section class ="map">
+      <div class ="container map_container">
+        <h2 class ="map_title">
+          Контакты
+       </h2>
+
+       <p class ="map_text">
+         Часы работы и приёма звонков: Понедельник- суббота с 9:00 до 20:00 ,воскресенье-выходной
+       </p>
+
+       <div class="yandex_map" style="position:relative;overflow:hidden;">
+         <a href="https://yandex.com/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Moscow</a><a href="https://yandex.com/maps/geo/moskva/53000094/?ll=37.535066%2C55.757920&utm_medium=mapframe&utm_source=maps&z=10.3" style="color:#eee;font-size:12px;position:absolute;top:14px;">Yandex Maps: search for places, transport, and routes</a>  <button id="openModal" class= "map_btn" style = "position: absolute; top: 20px; left: 20px; z-index: 1; padding: 20px">Адреса для самовывоза </button> <iframe src="https://yandex.com/map-widget/v1/?ll=37.535066%2C55.757920&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzAwMDA5NBIa0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAiCg2GeBZCFQEGX0I%2C&z=10.3" height="500px" width="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+
+         <div id="myModal" class="modal">
+          <div class="modal-content">
+              <h2 class = "modal_header">Адреса для самовывоза</h2>
+              <span class="close" id="closeModal">&times;</span>
+              <div class = "modal_table_title">
+                <h3>Адрес</h3>
+                <h3>Режим работы</h3>
+              </div>
+              <ul class ="modal_list">
+                <li class ="modal_item"> 
+                  <p class ="item_text">141554  Россия, Московская область, Солнечногорский городской округ, д.Коньково, д. 99 Павильон №1</p>
+                  <p class ="item_date"><span class ="week_date">Понедельник</span> - суббота с 9:00 до 20:00 <br>
+                    <span class ="week_date_sun">Воскресенье</span> - выходной</p>
+                </li>
+                <li class ="modal_item"> 
+                  <p class ="item_text">141446, Россия, Химки, Ленинградское шоссе, 29-й километр, вл1, Павильон №29-30 и №73-74</p>
+                  <p class ="item_date"><span class ="week_date">Понедельник</span> - суббота с 9:00 до 20:00 <br>
+                    <span class ="week_date_sun">Воскресенье</span> - выходной</p>
+                </li>
+                <li class ="modal_item"> 
+                  <p class ="item_text">141446, Россия, Химки, Ленинградское шоссе, 29-й километр, вл1, Павильон №14-15 и №58-59</p>
+                  <p class ="item_date"><span class ="week_date">Понедельник</span> - суббота с 9:00 до 20:00 <br>
+                    <span class ="week_date_sun">Воскресенье</span> - выходной</p>
+                </li>
+                <li class ="modal_item"> 
+                  <p class ="item_text">141580, Россия, обл Московская, р-н Солнечногорский, д Жилино, дом 1, строение 1, Павильон №1</p>
+                  <p class ="item_date"> <span class ="week_date">Понедельник</span> - суббота с 9:00 до 20:00 <br>
+                    <span class ="week_date_sun">Воскресенье</span> - выходной</p>
+                </li>
+                <li class ="modal_item"> 
+                  <p class ="item_text">125310, Россия, г Москва, ул Муравская, дом 42, строение 1</p>
+                  <p class ="item_date"><span class ="week_date">Понедельник</span> - суббота с 9:00 до 20:00 <br>
+                    <span class ="week_date_sun">Воскресенье</span> - выходной</p>
+                </li>
+              </ul>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section class ="locations">
+      <div class ="container locations_container">
+      <div class ="slider_box">
+        <ul class ="locations_list">
+          <li class ="location_item"> <img class ="location_img"src="img/location_1.png" alt="img"> <p class= "location_text"> 141554  Россия, Московская область, Солнечногорский городской округ, д.Коньково, д. 99 Павильон №1</p></li>
+          <li class ="location_item"> <img class ="location_img"src="img/location_2.png" alt="img">  <p class= "location_text">141446, Россия, Химки, Ленинградское шоссе, 29-й километр, вл1, Павильон №29-30 и №73-74</p></li>
+          <li class ="location_item"> <img class ="location_img"src="img/location_3.png" alt="img"> <p class= "location_text">141446, Россия, Химки, Ленинградское шоссе, 29-й километр, вл1, Павильон №14-15 и №58-59</p></li>
+          <li class ="location_item"> <img class ="location_img"src="img/location_1.png" alt="img"> <p class= "location_text"> 141554  Россия, Московская область, Солнечногорский городской округ, д.Коньково, д. 99 Павильон №1</p></li>
+          <li class ="location_item"> <img class ="location_img"src="img/location_2.png" alt="img">  <p class= "location_text">141446, Россия, Химки, Ленинградское шоссе, 29-й километр, вл1, Павильон №29-30 и №73-74</p></li>
+          <li class ="location_item"> <img class ="location_img"src="img/location_3.png" alt="img"> <p class= "location_text">141446, Россия, Химки, Ленинградское шоссе, 29-й километр, вл1, Павильон №14-15 и №58-59</p></li>
+        </ul>
+        <button id="prev" class="slider-button">&#9664;</button>
+        <button id="next" class="slider-button">&#9654;</button>
+      </div>
+      </div>
+    </section>
+    <section class= "contact_details">
+      <div class="container contact_details_container" >
+        <div class ="social_box">
+          <h3 class = "contact_details_title">Для связи</h3>
+          <div class = "phone_email">
+            <a class ="phone_number" href="tel:8-(495)-005-52-15">8-(495)-005-52-15</a>
+            <a class ="email_address" href="email:info@5kvt.ru">info@5kvt.ru</a>
+          </div>
+          <h3 class = "contact_details_title">Социальные сети</h3>
+          <div class = "social_links">
+            <a href="#"> <img src="img/insta.svg" alt="img"></a>
+            <a href="#"> <img src="img/vkontake.svg" alt="img"></a>
+            <a href="#"> <img src="img/facebook.svg" alt="img"></a>
+            <a href="#"> <img src="img/youtube.svg" alt="img"></a>
+          </div>
+        </div>
+
+        <div class ="bank_account_box">
+           <ul class= "bank_list">
+            <h3 class="bank_title">Реквизиты</h3>
+            <li class ="bank_item"> 
+              <p>ИП Агасян Владимир Артурович </p>
+              <p>ОГРНИП: 320508100021612</p>
+            </li>
+            <li class ="bank_item"> 
+              <p>ИП Агасян Владимир Артурович </p>
+              <p>ОГРНИП: 320508100021612</p>
+            </li>
+            <li class ="bank_item"> 
+              <p>ИП Агасян Владимир Артурович </p>
+              <p>ОГРНИП: 320508100021612</p>
+            </li>
+            <li class ="bank_item"> 
+              <p>ИП Агасян Владимир Артурович </p>
+              <p>ОГРНИП: 320508100021612</p>
+            </li>
+           </ul>
+        </div>
+      </div>
+    </section>
+        <!-- ! FOOTER SECTION  -->
+        <footer class="footer">
+          <div class="footer__container container">
+            <div class="footer__contacts">
+              <img src="/img/logo.svg " alt="Logo" class="footer__logo" />
+              <a href="#" class="footer__clink">+7 (499) 719-99-94</a>
+              <a href="#" class="footer__clink">info@5kvt.ru</a>
+              <a href="#" class="footer__link">Ежедневно 9:30 - 20:00 (МСК)</a>
+              <span class="footer__location">
+                117218, г. Москва, пр-кт Нахимовский .,дом 30/43, кв. 81
+              </span>
+            </div>
+            <div class="footer__info">
+              <span class="footer__title">Информация</span>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Доставка</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Оплата</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Производители</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Подарочные сертификаты</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Партнерская программа</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Акции</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Все товары</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__private">
+              <span class="footer__title"> Служба поддержки </span>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Возврат товара</a>
+                </li>
+              </ul>
+              <span class="footer__title"> Личный кабинет </span>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Возврат </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Личный кабинет </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">История заказов </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Избранное </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Рассылка </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__merge">
+              <div class="footer__merge__icons">
+                <a href="#" class="footer__merge__link"></a>
+                <a href="#" class="footer__merge__link"></a>
+                <a href="#" class="footer__merge__text">Напишите нам</a>
+              </div>
+              <a href="#" class="footer__merge__button">Служба поддержки</a>
+              <span class="footer__title">Принимаем к оплате</span>
+              <ul class="footer__payment_list">
+                <li class="footer__payment_item">
+                  <a href="#" class="footer__payment_link"></a>
+                </li>
+                <li class="footer__payment_item">
+                  <a href="#" class="footer__payment_link"></a>
+                </li>
+                <li class="footer__payment_item">
+                  <a href="#" class="footer__payment_link"></a>
+                </li>
+                <li class="footer__payment_item">
+                  <a href="#" class="footer__payment_link"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__bottom container">
+            Все права защищены. Указанная стоимость товаров и условия их
+            приобретения действительны на текущую дату.
+          </p>
+        </footer>
+    <script>
+                // Get the modal and buttons
+          var modal = document.getElementById("myModal");
+          var openBtn = document.getElementById("openModal");
+          var closeBtn = document.getElementById("closeModal");
+
+          // Open the modal when the button is clicked
+          openBtn.addEventListener("click", function() {
+              modal.style.display = "block";
+          });
+
+          // Close the modal when the close button is clicked
+          closeBtn.addEventListener("click", function() {
+              modal.style.display = "none";
+          });
+
+          // Close the modal if the background is clicked
+          window.addEventListener("click", function(event) {
+              if (event.target == modal) {
+                  modal.style.display = "none";
+              }
+          });
+
+
+          const sliderBox = document.querySelector(".slider_box");
+          const locationsList = document.querySelector(".locations_list");
+          const locationItems = document.querySelectorAll(".location_item");
+          const prevButton = document.getElementById("prev");
+          const nextButton = document.getElementById("next");
+          let currentIndex = 0;
+
+          function goToSlide(index) {
+              currentIndex = index;
+              const translateXValue = -currentIndex * (100 / locationItems.length);
+              locationsList.style.transform = `translateX(${translateXValue}%)`;
+          }
+
+          function nextSlide() {
+              currentIndex = (currentIndex + 1) % locationItems.length;
+              goToSlide(currentIndex);
+          }
+
+          function prevSlide() {
+              currentIndex = (currentIndex - 1 + locationItems.length) % locationItems.length;
+              goToSlide(currentIndex);
+          }
+
+          nextButton.addEventListener("click", nextSlide);
+          prevButton.addEventListener("click", prevSlide);
+
+
+
+
+
+    </script>
+  </body>
+</html>

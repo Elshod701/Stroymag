@@ -1,0 +1,56 @@
+.locations_list {
+    
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+    transition: transform 0.3s ease; 
+
+}
+
+.slider_box{
+    position: relative;
+    overflow: hidden;
+}
+
+.location_item {
+    
+    max-width: 360px;
+    flex: 0 0 100%;
+}
+
+.slider-button {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #1074EB;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
+
+
+@media screen and (max-width:1000px) {
+    .locations_list {
+        flex-direction: column;
+    }
+    .slider_box{
+        flex-direction: column;
+    }    
+    .location_item {
+        margin: 0  auto;
+    }
+    #prev, #next {
+        display: none;
+        
+      }
+}
